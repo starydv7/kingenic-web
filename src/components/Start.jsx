@@ -1,7 +1,13 @@
 import React from 'react';
 import style from '../css/start.module.css';
 import logo from "../assets/biglogo.png";
+import {useNavigate } from 'react-router-dom';
 const Start = () => {
+  const navigate = useNavigate();
+
+  const handleGetStartedClick = () => {
+    navigate('/home');
+  };
     
   return (
     <div className={style.main}>
@@ -12,7 +18,9 @@ const Start = () => {
         <p className={style.text}>The new era of intelligent <b>nutrition</b> is here</p>
         </div>
         <div className={style.buttonContainer}>
-              <button className={style.button}>Get Started</button>
+          
+              <button className={style.button} onClick={handleGetStartedClick}>Get Started</button>
+             
             </div>
       </div>
     </div>

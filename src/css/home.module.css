@@ -1,0 +1,101 @@
+/* home.module.css */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+.maindiv {
+  width: 80%;
+  height: 100vh;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.navbardiv {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.arrow,
+.logodiv {
+  width: 50%;
+  /* Adjust logo and arrow styling */
+}
+
+.line {
+  height: 2px;
+  background-color: black; /* Horizontal line styling */
+}
+
+.bannerdiv {
+  flex-grow: 1;
+  background-color: lightblue;
+  max-height: 300px;
+}
+
+.cardDiv {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Responsive card layout */
+  gap: 10px;
+  padding: 10px;
+}
+.gridCard {
+  border: 2px solid red; /* Add a red border to each card */
+  /* Add other card styles as needed */
+}
+
+/* Media Queries for responsive design */
+@media screen and (max-width: 768px) {
+  .navbardiv {
+    /* Adjust styles for smaller screens */
+    padding: 5px;
+  }
+
+  .arrow,
+  .logodiv {
+    /* Adjust logo and arrow styles for smaller screens */
+  }
+
+  .bannerdiv {
+    /* Adjust bannerdiv size for smaller screens */
+  }
+
+  .cardDiv {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(200px, 1fr)
+    ); /* Adjust card layout for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbardiv {
+    /* Adjust styles for mobile screens */
+    padding: 2px;
+  }
+
+  .arrow,
+  .logodiv {
+    /* Adjust logo and arrow styles for mobile screens */
+  }
+
+  .bannerdiv {
+    /* Adjust bannerdiv size for mobile screens */
+  }
+
+  .cardDiv {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(150px, 1fr)
+    ); /* Adjust card layout for mobile screens */
+  }
+}
