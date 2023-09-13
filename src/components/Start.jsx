@@ -12,17 +12,10 @@ const Start = () => {
   return (
     <div className={style.main}>
     <div className={style.content}>
-      <div className={style.contentImage}>
-        <div className={style.logoContainer}>
-        <img src={logo}alt="logo" className={style.logoImg}/>
-        <p className={style.text}>The new era of intelligent <b>nutrition</b> is here</p>
-        </div>
-        <div className={style.buttonContainer}>
-          
-              <button className={style.button} onClick={handleGetStartedClick}>Get Started</button>
-             
-            </div>
-      </div>
+     <div className={style.logobox}>
+
+     </div>
+     <div className={style.loginbox}></div>
     </div>
       
     </div>

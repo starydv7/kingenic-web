@@ -13,7 +13,7 @@
   margin: 0;
   display: flex;
   border: 2px solid red;
-  width: 100vw; /* Use viewport width (100%) instead of a fixed width */
+  width: 80vw; /* Use viewport width (100%) instead of a fixed width */
   height: 100vh; /* Use viewport height (100%) instead of a fixed height */
   flex-direction: column;
   background-image: url("../assets/bg.webp");
@@ -21,65 +21,21 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
+  margin-left: 10%;
 }
-.content {
-  padding: 20px;
-  flex-grow: 1;
-  opacity: 1;
-  display: flex;
+.logobox {
+  width: 50%; /* 50% of the width of the parent container (.main) */
+  height: 22vh; /* 22% of the height of the parent container (.main) */
+  margin-top: 8%; /* Adjust this value based on your desired vertical position */
+  margin-left: 25%; /* Adjust this value based on your desired horizontal position */
+  border: 2px solid black;
 }
-.content {
-  width: 100%; /* Make the content full-width */
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.2
-  ); /* Example background color with transparency */
-}
-
-.contentImage {
-  padding: 20px;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 30%;
+.loginbox{
+  width:50%;
+  height: 40vh;
+  border: 2px solid grey;
+  margin-left: 25%;
 }
 
-.logoImg {
-  /* margin-top: 30%; */
-  margin-right: 100%;
-  max-width: 40%;
-  height: auto;
-  /* border: 1px solid black; */
-}
-.text {
-  font-family: "Inter";
-  position: fixed;
-  margin-top: -2.5%;
-  margin-left: -34%;
-  width: 100%;
-  height: auto;
-  font-size: var(--base-font-size);
-}
-.logoContainer {
-  width: 50%;
-  height: auto;
-  margin-left: -15%;
-  /* border: 2px solid grey; */
-}
-.buttonContainer {
-  width: 8%;
-  height: 35%;
-  margin-top: 3%;
-  border-radius: 28px;
-}
-.button{
-  width:100%;
-  height:100%;
-  border-radius: 28px;
-  background-color: transparent;
-  border: 1px solid grey;
-  font-family: Inter;
-  cursor: pointer;
-}
+
 
