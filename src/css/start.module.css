@@ -30,7 +30,7 @@ body{
 .content{
   height: 100vh;
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 .logobox {
   width: 40%; /* 50% of the width of the parent container (.main) */
