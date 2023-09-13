@@ -1,18 +1,21 @@
 /* start.module.css */
 @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Inter:wght@400;500&display=swap");
-
+body{
+  font-size: 1rem; 
+  font-family: Inter;
+}
 :root {
   --base-font-size: 16px; /* Default base font size */
 }
 .main {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Inter;
   text-align: center;
   overflow: hidden;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   display: flex;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 80vw; /* Use viewport width (100%) instead of a fixed width */
   height: 100vh; /* Use viewport height (100%) instead of a fixed height */
   flex-direction: column;
@@ -22,20 +25,145 @@
   background-position: center;
   background-size: 100% 100%;
   margin-left: 10%;
+  
+}
+.content{
+  height: 100vh;
+  background-color: white;
+  opacity: 0.8;
 }
 .logobox {
-  width: 50%; /* 50% of the width of the parent container (.main) */
+  width: 40%; /* 50% of the width of the parent container (.main) */
   height: 22vh; /* 22% of the height of the parent container (.main) */
   margin-top: 8%; /* Adjust this value based on your desired vertical position */
-  margin-left: 25%; /* Adjust this value based on your desired horizontal position */
-  border: 2px solid black;
+  margin-left: 30%; /* Adjust this value based on your desired horizontal position */
+  /* border: 2px solid black; */
 }
 .loginbox{
-  width:50%;
+  width:40%;
   height: 40vh;
-  border: 2px solid grey;
-  margin-left: 25%;
+  /* border: 2px solid grey; */
+  margin-left: 30%;
+  margin-top: 1%;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.imgContainer{
+  width: 80%;
+  height: 15vh;
+  /* border: 2px solid red; */
+  margin-left: 10%;
+  margin-top: 2%;
+}
+.imgText{
+  width: 100%;
+  height: 6vh;
+  /* border: 2px solid blue; */
+  margin-top: -1%;
+  font-family: Inter;
+}
+.logoImg{
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
+.emailLabel {
+  width: 60%; /* 40% of the width of the parent container (.loginbox) */
+  height: 10%; /* 2% of the height of the parent container (.loginbox) */
+  /* Adjust this value based on your desired vertical position */
+  border: 2px solid transparent;
+  margin-left: 20%;
+  font-family: Inter;
+ line-height: 5%;
+ 
 }
 
+.emailText{
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  font-family: Inter;
+  color: #000;
+  margin-top: 20%;
+  
+  
+}
+.inputbox{
+  width:75%;
+  height: 7vh;
+  /* border: 2px solid rgb(201, 55, 55); */
+  margin-left: 12%;
+  border-radius: 5px;
+  align-items: center;
+  font-family: Inter;
+}
+
+input{
+  width:100%;
+  height: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  opacity: 0.;
+  font-weight: 400;
+  font-family: Inter;
+  margin-top: 13%;
+}
+.arrowicon{
+  width: 10%;
+  color: black;
+  margin-left: 80%;
+  margin-top: -14%;
+  cursor: pointer;
+  position: relative;
+}
+.iconImg{
+  height: 6vh;
+  margin-top: 5%;
+}
+.checkboxText{
+  width: 40%;
+  margin-left: 30%;
+  display: flex;
+  /* border: 2px solid red; */
+  gap: 4%;
+  font-family: Inter;
+}
+
+.checkbox{
+  margin-left: 20%;
+  width: 10px;
+  height: 10px;
+  margin-top: 30%;
+}
+.checkText{
+font-size: 0.65625rem;
+margin-top: 26%;
 
 
+}
+.administration{
+  width: 50%;
+  height: 5vh;
+  margin-left: 25%;
+  margin-top: 15%;
+  /* border: 2px solid grey; */
+  
+}
+.adminText{
+  font-size: 0.625rem;
+  font-weight:500;
+  color: #0015D7;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+  margin-top: -10%;
+  
+}
+.copyText{
+  font-size: 0.5rem;
+  font-weight: 400;
+  color: #666666;
+  font-family: Inter;
+  margin-top: -2%;
+}
