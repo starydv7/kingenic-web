@@ -36,6 +36,7 @@ body {
 .logodiv {
   width: 50%;
   /* Adjust logo and arrow styling */
+  cursor: pointer;
 }
 .arrowImg {
   width: 1.5%;

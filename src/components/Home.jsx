@@ -16,7 +16,7 @@ const Home = () => {
     <div className={style.maindiv}>
         <div className={style.navbardiv}>
        
-          <div className={style.arrow}>
+          <div className={style.arrow} onClick={handleBack}>
             <img src={arrow} alt="arrow" className={style.arrowImg} onClick={handleBack} />
           </div>
        
