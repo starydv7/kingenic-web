@@ -42,11 +42,13 @@ body{
 .loginbox{
   width:40%;
   height: 40vh;
-  /* border: 2px solid grey; */
+  border: 2px solid grey;
   margin-left: 30%;
   margin-top: 1%;
   border-radius: 5%;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  background-color: white; /* Set the background color to white */
+  opacity: 1; /* Set the opacity to 1 to make it non-transparent */
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .imgContainer{
   width: 80%;

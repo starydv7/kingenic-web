@@ -16,7 +16,7 @@ body {
 }
 .maindiv {
   width: 80%;
-  height: 120vh;
+  height: 130vh;
   
   display: flex;
   flex-direction: column;
@@ -52,18 +52,18 @@ body {
 }
 
 .line {
-  height: 2px;
+  height: 20px;
   width: 100%;
-  
-  background-color: black;
+  background-color: rgb(0, 0, 0);
  /* Horizontal line styling */
 }
 
 .bannerdiv {
   flex-grow: 1;
+  width: 1041px;
+  height: 529px;
   background-color: lightblue;
-  max-height: 300px;
-  margin-top: 1%;
+  margin-top: 2%;
  
 }
 .bannerImg{
@@ -83,8 +83,8 @@ body {
 }
 .gridCard {
  
-  height: 40vh;
-  width: 105%;
+  height: 50vh;
+  width: 105;
   margin-left: -3%;
   border-radius: 5%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
