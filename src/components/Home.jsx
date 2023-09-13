@@ -55,6 +55,9 @@ const Home = () => {
             </p>
           </div>
         </div>
+        <div className={style.fixedNavbar}>
+        {/* Content for the fixed bottom navbar */}
+      </div>
      </div>
     </div>
   )
