@@ -41,6 +41,7 @@ body {
   width: 1.5%;
   justify-content: center;
   margin-top: 3%;
+  cursor: pointer;
 }
 .logoImg {
   width: 30%; /* Adjust the percentage value as needed */

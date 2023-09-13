@@ -6,13 +6,20 @@ import banner from "../assets/image1.png";
 import card1 from "../assets/card1.png";
 import card2 from "../assets/card2.png";
 import card3 from "../assets/card3.png";
+import { useNavigate } from 'react-router-dom';
 const Home = () => {
+  const navigate=useNavigate();
+  const handleBack=()=>{
+    navigate("/")
+  }
   return (
     <div className={style.maindiv}>
         <div className={style.navbardiv}>
-         <div className={style.arrow}>
-        <img src={arrow}alt="arrow" className={style.arrowImg}/>
-         </div>
+       
+          <div className={style.arrow}>
+            <img src={arrow} alt="arrow" className={style.arrowImg} onClick={handleBack} />
+          </div>
+       
          <div className={style.logodiv}>
 <img src={logo}alt="logo"className={style.logoImg}/>
          </div>
