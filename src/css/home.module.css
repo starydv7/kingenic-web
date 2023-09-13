@@ -1,4 +1,12 @@
 /* home.module.css */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Inter:wght@400;500&display=swap");
+body{
+  font-size: 1rem; 
+  font-family: Inter;
+}
+:root {
+  --base-font-size: 16px; /* Default base font size */
+}
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +16,7 @@ body {
 }
 .maindiv {
   width: 80%;
-  height: 100vh;
+  height: 120vh;
   border: 2px solid red;
   display: flex;
   flex-direction: column;
@@ -20,12 +28,25 @@ body {
   justify-content: space-between;
   background-color: lightgray;
   padding: 10px;
+  height: 8%;
+  
 }
 
 .arrow,
 .logodiv {
   width: 50%;
   /* Adjust logo and arrow styling */
+}
+.arrowImg {
+  width: 1.5%;
+  justify-content: center;
+  margin-top: 3%;
+}
+.logoImg {
+  width: 30%; /* Adjust the percentage value as needed */
+  max-width: 250px; /* Add a max-width to limit its size */
+  height: auto; /* Maintain the aspect ratio */
+  margin-left: -15%;
 }
 
 .line {
@@ -37,22 +58,68 @@ body {
   flex-grow: 1;
   background-color: lightblue;
   max-height: 300px;
+  border: 2px solid black;
+}
+.bannerImg{
+  width: 100%;
+  height: 100%;
 }
 
 .cardDiv {
   display: grid;
   grid-template-columns: repeat(
     auto-fit,
-    minmax(300px, 1fr)
+    minmax(310px, 1fr)
   ); /* Responsive card layout */
-  gap: 10px;
+  gap: 3%;
   padding: 10px;
+  border-radius: 1%;
 }
 .gridCard {
   border: 2px solid red; /* Add a red border to each card */
-  /* Add other card styles as needed */
+  height: 40vh;
+  width: 105%;
+  margin-left: -3%;
+  border-radius: 5%;
 }
-
+.gridImg{
+  width: 100%;
+  height: 60%;
+  border: 1px solid teal;
+  
+}
+.gridText{
+  width: 100%;
+  height:38%;
+  border: 1px solid gold;
+}
+.cardimg{
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+.gridTitle{
+  width: 50%;
+  font-family: Inter;
+  border: 2px solid black;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  margin-left: 5%;
+  opacity: 1;
+  margin-top: 4%;
+}
+.subTitle{
+  width: 80%;
+  border: 2px solid red;
+  font-size: 0.6875rem;
+  font-family: Inter;
+  font-weight: 400;
+  margin-top: -4%;
+  margin-left: 5%;
+  opacity: 0.7;
+  
+  
+}
 /* Media Queries for responsive design */
 @media screen and (max-width: 768px) {
   .navbardiv {
