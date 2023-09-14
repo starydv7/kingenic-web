@@ -77,10 +77,10 @@ body {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
-  gap: 15px;
+  gap: 5%;
   padding: 10px;
   border-radius: 10px;
-  margin-left: -10px;
+  margin-left: 0%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .gridCard {
@@ -98,6 +98,7 @@ body {
 .gridText {
   width: 336px;
   height: 98px;
+  cursor: pointer;
  
 }
 .cardimg {
