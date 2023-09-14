@@ -73,7 +73,28 @@ const Home = () => {
           </div>
         </div>
         <div className={style.fixedNavbar}>
-         <div className={style.fixedNav}></div>
+         <div className={style.fixedNav}>
+          <div className={style.home}>
+            <img src={home}alt="home"className={style.homeIcon}/>
+            <p className={style.icontext}>Home</p>
+          </div>
+          <div className={style.home}>
+          <img src={atomlight}alt="home"className={style.productIcon}/>
+            <p className={style.productText}>Product</p>
+          </div>
+          <div className={style.portal}>
+          <img src={portal}alt="home"className={style.portalIcon}/>
+            <p className={style.portalText}>Portal</p>
+          </div>
+          <div className={style.learning}>
+          <img src={learning}alt="home"className={style.learningIcon}/>
+            <p className={style.learningtext}>Learning</p>
+          </div>
+          <div className={style.home}>
+          <img src={statusIcon}alt="home"className={style.contactIcon}/>
+            <p className={style.contacttext}>Contact</p>
+          </div>
+         </div>
         </div>
       </div>
     </div>

@@ -46,7 +46,7 @@ body {
 .logoImg {
   width: 226px;
   height: 68px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-left: -155px;
   margin-top: -10px;
 }
@@ -80,7 +80,6 @@ body {
   gap: 15px;
   padding: 10px;
   border-radius: 10px;
-  border: 2px solid red;
   margin-left: -10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
@@ -129,7 +128,7 @@ body {
 /* Add these styles at the end of your home.module.css file */
 .fixedNavbar {
   width: 100%;
-  height: 69px;
+  height: 60px;
   border: 2px solid black;
   position: fixed;
   bottom: 0;
@@ -141,11 +140,82 @@ body {
   box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1); /* Add a shadow to separate it from content */
 }
 .fixedNav{
-  width: 50%;
+  width: 30%;
   height: 100%;
-  border: 2px solid black;
-  margin-left: 25%;
+  margin-left: 33%;
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
 }
+.home{
+  width: 10%;
+  height: 100%;
+  cursor: pointer;
+}
+.portal{
+  width: 10%;
+  height: 100%;
+  cursor: pointer;
+}
+.learning{
+  width: 10%;
+  height: 100%;
+  cursor: pointer;
+}
+.homeIcon{
+  margin-top: 10px;
+  width: 32px;
+  height: 32px;
+}
+.productIcon{
+ 
+  margin-top: 10px;
+  width: 32px;
+  height: 32px;
+}
+.portalIcon{
+
+  margin-top: 10px;
+  width: 32px;
+  height: 32px;
+}
+.learningIcon{
+ 
+  margin-top: 10px;
+  width: 32px;
+  height: 32px;
+}
+.contactIcon{
+  
+  margin-top: 10px;
+  width: 32px;
+  height: 32px;
+}
+.portalText{
+  
+ margin-top: -5%;
+ font-size: 11px;
+}
+.icontext{
+ 
+ margin-top: -5%;
+ font-size: 11px;
+}
+.productText{
+ 
+ margin-top: -5%;
+ font-size: 11px;
+}
+.learningtext{
+  
+  margin-top: -5%;
+  font-size: 11px;
+}
+.contacttext{
+  margin-top: -5%;
+  font-size: 11px;
+}
+
 
 /* Media Queries for responsive design */
 @media screen and (max-width: 768px) {
