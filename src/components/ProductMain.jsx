@@ -12,14 +12,14 @@ import portal from "../assets/Sertificate_light_light.png";
 import learning from "../assets/Book_open_light.png";
 import statusIcon from "../assets/Status.png";
 import { useNavigate } from "react-router-dom";
-const Home = () => {
+const ProductMain= () => {
   const navigate = useNavigate();
   const handleBack = () => {
     navigate("/");
   };
-  const handleProductMain = () => {
+  const handleProductMain=()=>{
     navigate("/productMain");
-  };
+  }
   return (
     <div className={style.maindiv}>
       <div className={style.navbardiv}>
@@ -45,7 +45,7 @@ const Home = () => {
           <div className={style.gridImg}>
             <img src={card1} alt="card1" className={style.cardimg} />
           </div>
-          <div className={style.gridText} onClick={handleProductMain}>
+          <div className={style.gridText}>
             <p className={style.gridTitle}>Product Catalog</p>
             <p className={style.subTitle}>
               Explore our branded portfolio and private label offerings
@@ -104,4 +104,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default ProductMain;
