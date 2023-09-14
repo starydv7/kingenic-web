@@ -1,7 +1,7 @@
 /* home.module.css */
 @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Inter:wght@400;500&display=swap");
-body{
-  font-size: 1rem; 
+body {
+  font-size: 1rem;
   font-family: Inter;
 }
 :root {
@@ -11,13 +11,13 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  width: 100%;
-  height: 100%;
+  width: 1440px;
+  height: 1024px;
 }
 .maindiv {
   width: 80%;
-  height: 130vh;
-  
+  height: 1024px;
+
   display: flex;
   flex-direction: column;
   margin-left: 10%;
@@ -25,11 +25,10 @@ body {
 
 .navbardiv {
   display: flex;
-  justify-content: space-between;
+  width: 1054px;
   background-color: white;
   padding: 10px;
-  height: 5%;
-  
+  height: 68px;
 }
 
 .arrow,
@@ -39,98 +38,98 @@ body {
   cursor: pointer;
 }
 .arrowImg {
-  width: 1.5%;
-  justify-content: center;
-  margin-top: 3%;
-  cursor: pointer;
+  width: 10px;
+  height: 15px;
+  margin-top: 20px;
+  margin-left: -10px;
 }
 .logoImg {
-  width: 30%; /* Adjust the percentage value as needed */
-  max-width: 250px; /* Add a max-width to limit its size */
-  height: auto; /* Maintain the aspect ratio */
-  margin-left: -15%;
+  width: 226px;
+  height: 68px;
+  border: 2px solid red;
+  margin-left: -155px;
+  margin-top: -10px;
 }
 
 .line {
-  height: 20px;
-  width: 100%;
-  background-color: rgb(0, 0, 0);
- /* Horizontal line styling */
+  border: 1px solid black;
+  width: 1040px;
+  margin-top: -30px;
+  /* Horizontal line styling */
 }
 
 .bannerdiv {
   flex-grow: 1;
-  width: 1041px;
+  width: 1040px;
   height: 529px;
   background-color: lightblue;
-  margin-top: 2%;
- 
+  margin-top: 10px;
 }
-.bannerImg{
+.bannerImg {
   width: 100%;
   height: 100%;
 }
 
 .cardDiv {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(310px, 1fr)
-  ); /* Responsive card layout */
-  gap: 3%;
+  width: 1024px;
+  /* height: 238px; */
+  /* margin-top: 10px; */
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  gap: 15px;
   padding: 10px;
-  border-radius: 1%;
+  border-radius: 10px;
+  border: 2px solid red;
+  margin-left: -10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .gridCard {
- 
-  height: 50vh;
-  width: 105;
-  margin-left: -3%;
+  width: 336px;
+  height: 238px;
   border-radius: 5%;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
-.gridImg{
-  width: 100%;
-  height: 65%;
-  
-  
-}
-.gridText{
-  width: 100%;
-  height:38%;
+.gridImg {
+  width: 336px;
+  height: 158px;
   
 }
-.cardimg{
+.gridText {
+  width: 336px;
+  height: 98px;
+ 
+}
+.cardimg {
   width: 100%;
   height: 100%;
   border-radius: 5%;
 }
-.gridTitle{
+.gridTitle {
   width: 50%;
   font-family: Inter;
-  
+
   font-weight: 700;
   font-size: 0.9375rem;
   margin-left: 5%;
   opacity: 1;
   margin-top: 4%;
 }
-.subTitle{
+.subTitle {
   width: 80%;
-  
+
   font-size: 0.6875rem;
   font-family: Inter;
   font-weight: 400;
   margin-top: -4%;
   margin-left: 5%;
   opacity: 0.7;
-  
-  
 }
 /* Add these styles at the end of your home.module.css file */
 .fixedNavbar {
   width: 100%;
-  height: 5%;
+  height: 69px;
   border: 2px solid black;
   position: fixed;
   bottom: 0;
@@ -140,6 +139,12 @@ body {
   padding: 10px;
   z-index: 999; /* Ensure the navbar appears above other content */
   box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1); /* Add a shadow to separate it from content */
+}
+.fixedNav{
+  width: 50%;
+  height: 100%;
+  border: 2px solid black;
+  margin-left: 25%;
 }
 
 /* Media Queries for responsive design */
