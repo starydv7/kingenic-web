@@ -207,11 +207,12 @@ body {
  font-size: 11px;
 }
 .learningtext{
-  
+  margin-left: -5px;
   margin-top: -5%;
   font-size: 11px;
 }
 .contacttext{
+  margin-left: -5px;
   margin-top: -5%;
   font-size: 11px;
 }
